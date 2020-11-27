@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC79D81F2570E82E0070A124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D81E2570E82E0070A124 /* AppDelegate.swift */; };
+		EC79D8212570E82E0070A124 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D8202570E82E0070A124 /* SceneDelegate.swift */; };
+		EC79D8232570E82E0070A124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D8222570E82E0070A124 /* ViewController.swift */; };
+		EC79D8262570E82E0070A124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC79D8242570E82E0070A124 /* Main.storyboard */; };
+		EC79D8282570E8300070A124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC79D8272570E8300070A124 /* Assets.xcassets */; };
+		EC79D82B2570E8300070A124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC79D8292570E8300070A124 /* LaunchScreen.storyboard */; };
+		EC79D8362570E8300070A124 /* SportifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D8352570E8300070A124 /* SportifyTests.swift */; };
+		EC79D8412570E8300070A124 /* SportifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D8402570E8300070A124 /* SportifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC79D8322570E8300070A124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC79D8132570E82E0070A124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC79D81A2570E82E0070A124;
+			remoteInfo = Sportify;
+		};
+		EC79D83D2570E8300070A124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC79D8132570E82E0070A124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC79D81A2570E82E0070A124;
+			remoteInfo = Sportify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC79D81B2570E82E0070A124 /* Sportify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sportify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC79D81E2570E82E0070A124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC79D8202570E82E0070A124 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC79D8222570E82E0070A124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC79D8252570E82E0070A124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC79D8272570E8300070A124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC79D82A2570E8300070A124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC79D82C2570E8300070A124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC79D8312570E8300070A124 /* SportifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC79D8352570E8300070A124 /* SportifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportifyTests.swift; sourceTree = "<group>"; };
+		EC79D8372570E8300070A124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC79D83C2570E8300070A124 /* SportifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC79D8402570E8300070A124 /* SportifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportifyUITests.swift; sourceTree = "<group>"; };
+		EC79D8422570E8300070A124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC79D8182570E82E0070A124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC79D82E2570E8300070A124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC79D8392570E8300070A124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC79D8122570E82E0070A124 = {
+			isa = PBXGroup;
+			children = (
+				EC79D81D2570E82E0070A124 /* Sportify */,
+				EC79D8342570E8300070A124 /* SportifyTests */,
+				EC79D83F2570E8300070A124 /* SportifyUITests */,
+				EC79D81C2570E82E0070A124 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC79D81C2570E82E0070A124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC79D81B2570E82E0070A124 /* Sportify.app */,
+				EC79D8312570E8300070A124 /* SportifyTests.xctest */,
+				EC79D83C2570E8300070A124 /* SportifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC79D81D2570E82E0070A124 /* Sportify */ = {
+			isa = PBXGroup;
+			children = (
+				EC79D81E2570E82E0070A124 /* AppDelegate.swift */,
+				EC79D8202570E82E0070A124 /* SceneDelegate.swift */,
+				EC79D8222570E82E0070A124 /* ViewController.swift */,
+				EC79D8242570E82E0070A124 /* Main.storyboard */,
+				EC79D8272570E8300070A124 /* Assets.xcassets */,
+				EC79D8292570E8300070A124 /* LaunchScreen.storyboard */,
+				EC79D82C2570E8300070A124 /* Info.plist */,
+			);
+			path = Sportify;
+			sourceTree = "<group>";
+		};
+		EC79D8342570E8300070A124 /* SportifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC79D8352570E8300070A124 /* SportifyTests.swift */,
+				EC79D8372570E8300070A124 /* Info.plist */,
+			);
+			path = SportifyTests;
+			sourceTree = "<group>";
+		};
+		EC79D83F2570E8300070A124 /* SportifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC79D8402570E8300070A124 /* SportifyUITests.swift */,
+				EC79D8422570E8300070A124 /* Info.plist */,
+			);
+			path = SportifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC79D81A2570E82E0070A124 /* Sportify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC79D8452570E8300070A124 /* Build configuration list for PBXNativeTarget "Sportify" */;
+			buildPhases = (
+				EC79D8172570E82E0070A124 /* Sources */,
+				EC79D8182570E82E0070A124 /* Frameworks */,
+				EC79D8192570E82E0070A124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sportify;
+			productName = Sportify;
+			productReference = EC79D81B2570E82E0070A124 /* Sportify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC79D8302570E8300070A124 /* SportifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC79D8482570E8300070A124 /* Build configuration list for PBXNativeTarget "SportifyTests" */;
+			buildPhases = (
+				EC79D82D2570E8300070A124 /* Sources */,
+				EC79D82E2570E8300070A124 /* Frameworks */,
+				EC79D82F2570E8300070A124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC79D8332570E8300070A124 /* PBXTargetDependency */,
+			);
+			name = SportifyTests;
+			productName = SportifyTests;
+			productReference = EC79D8312570E8300070A124 /* SportifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC79D83B2570E8300070A124 /* SportifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC79D84B2570E8300070A124 /* Build configuration list for PBXNativeTarget "SportifyUITests" */;
+			buildPhases = (
+				EC79D8382570E8300070A124 /* Sources */,
+				EC79D8392570E8300070A124 /* Frameworks */,
+				EC79D83A2570E8300070A124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC79D83E2570E8300070A124 /* PBXTargetDependency */,
+			);
+			name = SportifyUITests;
+			productName = SportifyUITests;
+			productReference = EC79D83C2570E8300070A124 /* SportifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC79D8132570E82E0070A124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = etudiant;
+				TargetAttributes = {
+					EC79D81A2570E82E0070A124 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					EC79D8302570E8300070A124 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EC79D81A2570E82E0070A124;
+					};
+					EC79D83B2570E8300070A124 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EC79D81A2570E82E0070A124;
+					};
+				};
+			};
+			buildConfigurationList = EC79D8162570E82E0070A124 /* Build configuration list for PBXProject "Sportify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC79D8122570E82E0070A124;
+			productRefGroup = EC79D81C2570E82E0070A124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC79D81A2570E82E0070A124 /* Sportify */,
+				EC79D8302570E8300070A124 /* SportifyTests */,
+				EC79D83B2570E8300070A124 /* SportifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC79D8192570E82E0070A124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC79D82B2570E8300070A124 /* LaunchScreen.storyboard in Resources */,
+				EC79D8282570E8300070A124 /* Assets.xcassets in Resources */,
+				EC79D8262570E82E0070A124 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC79D82F2570E8300070A124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC79D83A2570E8300070A124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC79D8172570E82E0070A124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC79D8232570E82E0070A124 /* ViewController.swift in Sources */,
+				EC79D81F2570E82E0070A124 /* AppDelegate.swift in Sources */,
+				EC79D8212570E82E0070A124 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC79D82D2570E8300070A124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC79D8362570E8300070A124 /* SportifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC79D8382570E8300070A124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC79D8412570E8300070A124 /* SportifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC79D8332570E8300070A124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC79D81A2570E82E0070A124 /* Sportify */;
+			targetProxy = EC79D8322570E8300070A124 /* PBXContainerItemProxy */;
+		};
+		EC79D83E2570E8300070A124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC79D81A2570E82E0070A124 /* Sportify */;
+			targetProxy = EC79D83D2570E8300070A124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC79D8242570E82E0070A124 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC79D8252570E82E0070A124 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC79D8292570E8300070A124 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC79D82A2570E8300070A124 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC79D8432570E8300070A124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC79D8442570E8300070A124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC79D8462570E8300070A124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sportify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iut1.Sportify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC79D8472570E8300070A124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sportify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iut1.Sportify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC79D8492570E8300070A124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iut1.SportifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sportify.app/Sportify";
+			};
+			name = Debug;
+		};
+		EC79D84A2570E8300070A124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iut1.SportifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sportify.app/Sportify";
+			};
+			name = Release;
+		};
+		EC79D84C2570E8300070A124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iut1.SportifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sportify;
+			};
+			name = Debug;
+		};
+		EC79D84D2570E8300070A124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iut1.SportifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sportify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC79D8162570E82E0070A124 /* Build configuration list for PBXProject "Sportify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC79D8432570E8300070A124 /* Debug */,
+				EC79D8442570E8300070A124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC79D8452570E8300070A124 /* Build configuration list for PBXNativeTarget "Sportify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC79D8462570E8300070A124 /* Debug */,
+				EC79D8472570E8300070A124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC79D8482570E8300070A124 /* Build configuration list for PBXNativeTarget "SportifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC79D8492570E8300070A124 /* Debug */,
+				EC79D84A2570E8300070A124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC79D84B2570E8300070A124 /* Build configuration list for PBXNativeTarget "SportifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC79D84C2570E8300070A124 /* Debug */,
+				EC79D84D2570E8300070A124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC79D8132570E82E0070A124 /* Project object */;
+}
