@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC76737E2578F1E7001B672A /* ProgrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76737D2578F1E7001B672A /* ProgrameViewController.swift */; };
+		EC76738425790521001B672A /* SportsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76738325790521001B672A /* SportsCollectionViewCell.swift */; };
 		EC79D81F2570E82E0070A124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D81E2570E82E0070A124 /* AppDelegate.swift */; };
 		EC79D8212570E82E0070A124 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D8202570E82E0070A124 /* SceneDelegate.swift */; };
 		EC79D8232570E82E0070A124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D8222570E82E0070A124 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC76737D2578F1E7001B672A /* ProgrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrameViewController.swift; sourceTree = "<group>"; };
+		EC76738325790521001B672A /* SportsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsCollectionViewCell.swift; sourceTree = "<group>"; };
 		EC79D81B2570E82E0070A124 /* Sportify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sportify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC79D81E2570E82E0070A124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC79D8202570E82E0070A124 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,9 +107,11 @@
 				EC79D8202570E82E0070A124 /* SceneDelegate.swift */,
 				EC79D8222570E82E0070A124 /* ViewController.swift */,
 				EC79D8242570E82E0070A124 /* Main.storyboard */,
+				EC76738325790521001B672A /* SportsCollectionViewCell.swift */,
 				EC79D8272570E8300070A124 /* Assets.xcassets */,
 				EC79D8292570E8300070A124 /* LaunchScreen.storyboard */,
 				EC79D82C2570E8300070A124 /* Info.plist */,
+				EC76737D2578F1E7001B672A /* ProgrameViewController.swift */,
 			);
 			path = Sportify;
 			sourceTree = "<group>";
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC76738425790521001B672A /* SportsCollectionViewCell.swift in Sources */,
 				EC79D8232570E82E0070A124 /* ViewController.swift in Sources */,
 				EC79D81F2570E82E0070A124 /* AppDelegate.swift in Sources */,
 				EC79D8212570E82E0070A124 /* SceneDelegate.swift in Sources */,
+				EC76737E2578F1E7001B672A /* ProgrameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
