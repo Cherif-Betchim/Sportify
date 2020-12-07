@@ -10,6 +10,8 @@ import UIKit
 
 class ProgrameViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     let sportName = ["Natation", "Tenis", "Golf", "BodyBuilding", "Football"]
     
     let sportImage = [UIImage(named: "natation"),UIImage(named: "tenis"),UIImage(named: "golf"),UIImage(named: "body"),UIImage(named: "foot")]
@@ -18,7 +20,8 @@ class ProgrameViewController: UIViewController, UICollectionViewDataSource, UICo
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        collectionView.delegate = self
+        collectionView.dataSource = self
         // Do any additional setup after loading the view.
     }
     
