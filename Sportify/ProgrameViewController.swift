@@ -16,7 +16,7 @@ class ProgrameViewController: UIViewController, UITableViewDelegate, UITableView
     
     let sportImage = [UIImage(named: "natation"),UIImage(named: "tenis"),UIImage(named: "golf"),UIImage(named: "body"),UIImage(named: "foot")]
     
-    let  sportDescription = ["la natation consiste à parcourir le plus vite possible une distance à la nage dans une piscine homologuée. La natation englobe également les épreuves de plongeon ainsi que la natation synchronisée, qui s'inspire des ballets aquatiques.","Le tennis est un sport de raquette qui oppose soit deux joueurs soit quatre joueurs qui forment deux équipes de deux.","Le golf est un sport de précision se jouant en plein air, qui consiste à envoyer une balle dans un trou à l'aide de clubs. Le but du jeu consiste à effectuer, sur un parcours défini, le moins de coups possible. Précision, endurance, technicité, concentration sont des qualités primordiales pour cette activité.","La musculation est un ensemble d'exercices physiques visant le développement des muscles squelettiques, afin d'acquérir plus de force, d'endurance, de puissance, d'explosivité ou du volume musculaire. ... La musculation est la base de la pratique du culturisme et de plusieurs sports de force comme l'haltérophilie.","Le football est un sport collectif joué entre deux équipes de onze joueurs (un gardien et dix joueurs de champ) avec un ballon sphérique. Appelé « soccer » en Amérique du Nord, il est pratiqué par 250 millions de joueurs dans plus de 200 pays, ce qui en fait le sport le plus populaire au monde."]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +33,6 @@ class ProgrameViewController: UIViewController, UITableViewDelegate, UITableView
 		let cell = tableView.dequeueReusableCell(withIdentifier: "sportCell", for: indexPath) as! SportsCollectionViewCell
 		cell.sportName.text = sportName[indexPath.row]
 		cell.sportImage.image = sportImage[indexPath.row]
-		cell.sportDescription.text = sportDescription[indexPath.row]
 		return cell
 	}
 

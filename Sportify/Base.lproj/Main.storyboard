@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2m6-9P-Jjs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2m6-9P-Jjs">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -53,8 +51,8 @@
                     <view key="view" contentMode="scaleToFill" id="ONI-Hx-ROy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="EDi-wV-xsA"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="OIY-uy-QxX"/>
                 </viewController>
@@ -120,8 +118,8 @@
                     <view key="view" contentMode="scaleToFill" id="zdi-rp-D37">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ToN-0L-Apm"/>
-                        <color key="backgroundColor" systemColor="systemPinkColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="Ggy-If-dVs"/>
                 </viewController>
@@ -136,8 +134,8 @@
                     <view key="view" contentMode="scaleToFill" id="tbS-EX-qIx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="xPF-ac-H8a"/>
-                        <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Map" id="e18-Og-zhm"/>
                 </viewController>
@@ -155,50 +153,41 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="URp-ud-BtE">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="sportCell" id="b1G-pq-FQm" customClass="SportsCollectionViewCell" customModule="Sportify" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="337"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="sportCell" rowHeight="233" id="b1G-pq-FQm" customClass="SportsCollectionViewCell" customModule="Sportify" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="233"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="b1G-pq-FQm" id="fNR-n1-POb">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="337"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CFA-2q-8wV">
-                                                    <rect key="frame" x="10" y="10" width="394" height="200"/>
+                                                    <rect key="frame" x="0.0" y="10" width="414" height="200"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="200" id="86B-OB-gVZ"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Natation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c01-56-DN1">
-                                                    <rect key="frame" x="10" y="215" width="394" height="35"/>
-                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="29"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zc9-Ug-au4">
-                                                    <rect key="frame" x="10" y="255" width="394" height="82"/>
-                                                    <string key="text">La natation sportive consiste à parcourir dans une piscine, le plus rapidement possible et dans un style codifié par la Fédération internationale de natation</string>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" misplaced="YES" text="Natation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c01-56-DN1">
+                                                    <rect key="frame" x="20" y="93" width="374" height="35"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                    <color key="textColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="c01-56-DN1" secondAttribute="trailing" constant="10" id="8i9-Kb-RME"/>
-                                                <constraint firstAttribute="bottom" secondItem="zc9-Ug-au4" secondAttribute="bottom" id="9EF-PA-L7n"/>
-                                                <constraint firstItem="zc9-Ug-au4" firstAttribute="top" secondItem="c01-56-DN1" secondAttribute="bottom" constant="5" id="9gv-Hg-vgK"/>
-                                                <constraint firstItem="CFA-2q-8wV" firstAttribute="leading" secondItem="fNR-n1-POb" secondAttribute="leading" constant="10" id="Pd2-Ob-ayX"/>
-                                                <constraint firstAttribute="trailing" secondItem="CFA-2q-8wV" secondAttribute="trailing" constant="10" id="b54-SJ-e3E"/>
-                                                <constraint firstItem="c01-56-DN1" firstAttribute="top" secondItem="CFA-2q-8wV" secondAttribute="bottom" constant="5" id="csN-2l-TOf"/>
-                                                <constraint firstItem="zc9-Ug-au4" firstAttribute="leading" secondItem="fNR-n1-POb" secondAttribute="leading" constant="10" id="qWO-9a-CDn"/>
-                                                <constraint firstItem="c01-56-DN1" firstAttribute="leading" secondItem="fNR-n1-POb" secondAttribute="leading" constant="10" id="uaM-dB-8vL"/>
-                                                <constraint firstAttribute="trailing" secondItem="zc9-Ug-au4" secondAttribute="trailing" constant="10" id="wVD-wW-KPr"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="CFA-2q-8wV" secondAttribute="bottom" constant="12" id="5U8-5o-f3C"/>
+                                                <constraint firstAttribute="trailing" secondItem="c01-56-DN1" secondAttribute="trailing" constant="20" id="8i9-Kb-RME"/>
+                                                <constraint firstItem="CFA-2q-8wV" firstAttribute="leading" secondItem="fNR-n1-POb" secondAttribute="leading" id="Pd2-Ob-ayX"/>
+                                                <constraint firstAttribute="trailing" secondItem="CFA-2q-8wV" secondAttribute="trailing" id="b54-SJ-e3E"/>
+                                                <constraint firstItem="c01-56-DN1" firstAttribute="top" secondItem="CFA-2q-8wV" secondAttribute="bottom" constant="-132" id="csN-2l-TOf"/>
+                                                <constraint firstItem="CFA-2q-8wV" firstAttribute="top" secondItem="fNR-n1-POb" secondAttribute="top" id="hNj-gZ-uib"/>
+                                                <constraint firstAttribute="bottom" secondItem="CFA-2q-8wV" secondAttribute="bottom" id="kvd-LI-E1H"/>
+                                                <constraint firstItem="c01-56-DN1" firstAttribute="leading" secondItem="fNR-n1-POb" secondAttribute="leading" constant="20" id="uaM-dB-8vL"/>
                                                 <constraint firstItem="CFA-2q-8wV" firstAttribute="top" secondItem="fNR-n1-POb" secondAttribute="top" constant="10" id="xHG-hX-JHS"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="sportDescription" destination="zc9-Ug-au4" id="cDs-cS-8E2"/>
                                             <outlet property="sportImage" destination="CFA-2q-8wV" id="hRi-bY-Fq6"/>
                                             <outlet property="sportName" destination="c01-56-DN1" id="8Tc-5O-LcG"/>
                                         </connections>
@@ -206,14 +195,14 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="zeN-7e-P7w"/>
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="URp-ud-BtE" firstAttribute="leading" secondItem="zeN-7e-P7w" secondAttribute="leading" id="2Ps-B8-ACe"/>
                             <constraint firstItem="URp-ud-BtE" firstAttribute="top" secondItem="zeN-7e-P7w" secondAttribute="top" id="hNH-vd-cvK"/>
                             <constraint firstItem="URp-ud-BtE" firstAttribute="trailing" secondItem="zeN-7e-P7w" secondAttribute="trailing" id="tF7-dU-L9l"/>
                             <constraint firstItem="zeN-7e-P7w" firstAttribute="bottom" secondItem="URp-ud-BtE" secondAttribute="bottom" id="tpD-9f-gPp"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="zeN-7e-P7w"/>
                     </view>
                     <navigationItem key="navigationItem" title="Programe" id="ssF-U2-Xcn"/>
                     <connections>
@@ -227,20 +216,8 @@
     </scenes>
     <resources>
         <image name="calendar.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="house" catalog="system" width="128" height="106"/>
-        <image name="map.fill" catalog="system" width="128" height="110"/>
+        <image name="house" catalog="system" width="128" height="110"/>
+        <image name="map.fill" catalog="system" width="128" height="113"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>
