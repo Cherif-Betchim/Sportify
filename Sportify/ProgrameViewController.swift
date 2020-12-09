@@ -37,9 +37,14 @@ class ProgrameViewController: UIViewController, UITableViewDelegate, UITableView
 	}
 
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//		let sportName = sportName[indexPath.row]
-		
+        let sportdet = storyboard?.instantiateViewController(withIdentifier:
+        "DetailsViewController") as? DetailsViewController
+        //sportdet?.image = UIImage(named : sportImage [indexPath.row])! 
+        sportdet?.name = sportName[indexPath.row]
+        self.navigationController?.pushViewController(sportdet! , animated: true )
 	}
+    
+
 	
     /*
     // MARK: - Navigation

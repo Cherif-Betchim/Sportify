@@ -17,6 +17,7 @@
 		EC79D82B2570E8300070A124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC79D8292570E8300070A124 /* LaunchScreen.storyboard */; };
 		EC79D8362570E8300070A124 /* SportifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D8352570E8300070A124 /* SportifyTests.swift */; };
 		EC79D8412570E8300070A124 /* SportifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D8402570E8300070A124 /* SportifyUITests.swift */; };
+		EC9635482580CC1E00B97DAA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9635472580CC1E00B97DAA /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EC79D83C2570E8300070A124 /* SportifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC79D8402570E8300070A124 /* SportifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportifyUITests.swift; sourceTree = "<group>"; };
 		EC79D8422570E8300070A124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9635472580CC1E00B97DAA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		EC79D81D2570E82E0070A124 /* Sportify */ = {
 			isa = PBXGroup;
 			children = (
+				EC9635472580CC1E00B97DAA /* DetailsViewController.swift */,
 				EC79D81E2570E82E0070A124 /* AppDelegate.swift */,
 				EC79D8202570E82E0070A124 /* SceneDelegate.swift */,
 				EC79D8222570E82E0070A124 /* ViewController.swift */,
@@ -270,6 +273,7 @@
 				EC79D81F2570E82E0070A124 /* AppDelegate.swift in Sources */,
 				EC79D8212570E82E0070A124 /* SceneDelegate.swift in Sources */,
 				EC76737E2578F1E7001B672A /* ProgrameViewController.swift in Sources */,
+				EC9635482580CC1E00B97DAA /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
