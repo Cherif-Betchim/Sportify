@@ -58,81 +58,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xab-E7-ipu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="874" y="811"/>
-        </scene>
-        <!--Details View Controller-->
-        <scene sceneID="PhM-Kc-FH9">
-            <objects>
-                <viewController storyboardIdentifier="DetailsViewController" id="51J-jZ-1Ry" customClass="DetailsViewController" customModule="Sportify" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pho-mU-JeI" customClass="Detail" customModule="Sportify" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jdN-jd-oUl">
-                                <rect key="frame" x="20" y="303" width="240" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="1qa-kc-p8q">
-                                <rect key="frame" x="0.0" y="359" width="414" height="435"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="435" id="Xal-Fm-JOs"/>
-                                </constraints>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="aXe-8D-kxQ">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aXe-8D-kxQ" id="5D0-Zc-UY0">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="NWs-00-nL4">
-                                <rect key="frame" x="0.0" y="88" width="414" height="207"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4Bp-ET-dVM">
-                                <rect key="frame" x="287" y="301" width="30" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Add"/>
-                                <connections>
-                                    <action selector="onClickAdd:" destination="51J-jZ-1Ry" eventType="touchUpInside" id="TNh-Oq-5cV"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                        <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
-                        <constraints>
-                            <constraint firstItem="NWs-00-nL4" firstAttribute="top" secondItem="bkc-GH-y9X" secondAttribute="top" id="0kL-g8-xW4"/>
-                            <constraint firstItem="1qa-kc-p8q" firstAttribute="leading" secondItem="bkc-GH-y9X" secondAttribute="leading" id="2Ip-t6-2Xu"/>
-                            <constraint firstItem="1qa-kc-p8q" firstAttribute="bottom" secondItem="bkc-GH-y9X" secondAttribute="bottom" id="Bus-8t-tt4"/>
-                            <constraint firstItem="4Bp-ET-dVM" firstAttribute="centerY" secondItem="jdN-jd-oUl" secondAttribute="centerY" id="CdR-6l-Z0L"/>
-                            <constraint firstItem="NWs-00-nL4" firstAttribute="top" secondItem="bkc-GH-y9X" secondAttribute="top" constant="14" id="LIq-Ny-7Iz"/>
-                            <constraint firstItem="4Bp-ET-dVM" firstAttribute="bottom" secondItem="jdN-jd-oUl" secondAttribute="bottom" constant="1" id="X2g-DI-8Ua"/>
-                            <constraint firstItem="bkc-GH-y9X" firstAttribute="trailing" secondItem="4Bp-ET-dVM" secondAttribute="trailing" constant="104" id="ZcR-9Y-QbV"/>
-                            <constraint firstItem="4Bp-ET-dVM" firstAttribute="leading" secondItem="jdN-jd-oUl" secondAttribute="trailing" constant="20" id="e9E-eW-ldI"/>
-                            <constraint firstItem="1qa-kc-p8q" firstAttribute="leading" secondItem="NWs-00-nL4" secondAttribute="leading" id="oP8-67-7oM"/>
-                            <constraint firstItem="1qa-kc-p8q" firstAttribute="trailing" secondItem="NWs-00-nL4" secondAttribute="trailing" id="sMf-oM-HmC"/>
-                            <constraint firstItem="bkc-GH-y9X" firstAttribute="trailing" secondItem="1qa-kc-p8q" secondAttribute="trailing" id="w8I-zR-ZNi"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="bkc-GH-y9X"/>
-                    </view>
-                    <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="Dn3-lP-k1k"/>
-                    <connections>
-                        <outlet property="label" destination="jdN-jd-oUl" id="2cD-bh-zF5"/>
-                        <outlet property="sportDetailimg" destination="NWs-00-nL4" id="CtW-zW-J2m"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="f1h-7Y-LI1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2492.753623188406" y="1466.5178571428571"/>
+            <point key="canvasLocation" x="843" y="811"/>
         </scene>
         <!--Map-->
         <scene sceneID="N9u-ew-chP">
@@ -217,7 +143,7 @@
             </objects>
             <point key="canvasLocation" x="2296" y="811"/>
         </scene>
-        <!--Programe View Controller-->
+        <!--Programe-->
         <scene sceneID="W3o-B6-VHm">
             <objects>
                 <viewController id="MCl-F3-3jL" customClass="ProgrameViewController" customModule="Sportify" customModuleProvider="target" sceneMemberID="viewController">
@@ -237,7 +163,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CFA-2q-8wV">
-                                                    <rect key="frame" x="0.0" y="10" width="414" height="223"/>
+                                                    <rect key="frame" x="0.0" y="10" width="414" height="200"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="200" id="86B-OB-gVZ"/>
                                                     </constraints>
@@ -278,40 +204,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zeN-7e-P7w"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ssF-U2-Xcn">
-                        <barButtonItem key="rightBarButtonItem" image="Logo" id="THT-KU-96B"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Programe" id="ssF-U2-Xcn"/>
                     <connections>
                         <outlet property="tableView" destination="URp-ud-BtE" id="KI9-fk-H8I"/>
-                        <segue destination="iEm-3S-6Y5" kind="show" id="Iqq-di-gab"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="arC-Vq-NR7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1582.608695652174" y="810.9375"/>
         </scene>
-        <!--Image Picker Controller-->
-        <scene sceneID="2fN-C0-a86">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iEm-3S-6Y5" customClass="UIImagePickerController" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="DxY-j3-d3Y"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5BH-cy-qkm">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="51J-jZ-1Ry" kind="relationship" relationship="rootViewController" id="CBy-fY-v6b"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kZ0-sr-6yb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1582.608695652174" y="1466.5178571428571"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="Logo" width="200" height="200"/>
         <image name="calendar.circle.fill" catalog="system" width="128" height="121"/>
         <image name="house" catalog="system" width="128" height="110"/>
         <image name="map.fill" catalog="system" width="128" height="113"/>

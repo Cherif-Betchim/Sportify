@@ -12,7 +12,7 @@ class ProgrameViewController: UIViewController, UITableViewDelegate, UITableView
     
     @IBOutlet weak var tableView: UITableView!
     
-    let sportName = ["Natation", "Tenis", "Golf", "BodyBuilding", "Football"]
+    let sportName = ["Natation", "Tennis", "Golf", "BodyBuilding", "Football"]
     
     let sportImage = [UIImage(named: "natation"),UIImage(named: "tenis"),UIImage(named: "golf"),UIImage(named: "body"),UIImage(named: "foot")]
     
@@ -36,13 +36,15 @@ class ProgrameViewController: UIViewController, UITableViewDelegate, UITableView
 		return cell
 	}
 
-	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let sportdet = storyboard?.instantiateViewController(withIdentifier:
-        "DetailsViewController") as? DetailsViewController
-        //sportdet?.image = UIImage(named : sportImage [indexPath.row])! 
-        sportdet?.name = sportName[indexPath.row]
-        self.navigationController?.pushViewController(sportdet! , animated: true )
-	}
+
+    
+ func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let sportdet = storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as? DetailsViewController {
+            sportdet.image = sportImage[indexPath.row]!
+            sportdet.name = sportName[indexPath.row]
+            self.navigationController?.pushViewController(sportdet , animated: true )
+        }
+    }
     
 
 	
