@@ -133,6 +133,8 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         @unknown default:
             break
         }
+    }
+    
     //verify differents permissions
     func locationManager(_ manager:CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus){
         checkLocationAuthorization()
@@ -149,8 +151,5 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
                 self.isAlreadyCenter = true
             }
         }
-        
-        
     }
-}
 }
