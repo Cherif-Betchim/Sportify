@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC76737E2578F1E7001B672A /* ProgrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76737D2578F1E7001B672A /* ProgrameViewController.swift */; };
+		EC76738425790521001B672A /* SportsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76738325790521001B672A /* SportsCollectionViewCell.swift */; };
 		12FFFB352580BD4400EAF56B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFFB342580BD4400EAF56B /* MapViewController.swift */; };
 		12FFFB3B2580C24800EAF56B /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFFB3A2580C24800EAF56B /* CustomAnnotation.swift */; };
 		12FFFB4C2580E59F00EAF56B /* Lieux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFFB4B2580E59E00EAF56B /* Lieux.swift */; };
@@ -18,6 +20,7 @@
 		EC79D82B2570E8300070A124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC79D8292570E8300070A124 /* LaunchScreen.storyboard */; };
 		EC79D8362570E8300070A124 /* SportifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D8352570E8300070A124 /* SportifyTests.swift */; };
 		EC79D8412570E8300070A124 /* SportifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D8402570E8300070A124 /* SportifyUITests.swift */; };
+		EC9635482580CC1E00B97DAA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9635472580CC1E00B97DAA /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC76737D2578F1E7001B672A /* ProgrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrameViewController.swift; sourceTree = "<group>"; };
+		EC76738325790521001B672A /* SportsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsCollectionViewCell.swift; sourceTree = "<group>"; };
 		12FFFB342580BD4400EAF56B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		12FFFB3A2580C24800EAF56B /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		12FFFB4B2580E59E00EAF56B /* Lieux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lieux.swift; sourceTree = "<group>"; };
@@ -55,6 +60,7 @@
 		EC79D83C2570E8300070A124 /* SportifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC79D8402570E8300070A124 /* SportifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportifyUITests.swift; sourceTree = "<group>"; };
 		EC79D8422570E8300070A124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9635472580CC1E00B97DAA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,13 +120,16 @@
 		EC79D81D2570E82E0070A124 /* Sportify */ = {
 			isa = PBXGroup;
 			children = (
+				EC9635472580CC1E00B97DAA /* DetailsViewController.swift */,
 				EC79D81E2570E82E0070A124 /* AppDelegate.swift */,
 				EC79D8202570E82E0070A124 /* SceneDelegate.swift */,
 				EC79D8222570E82E0070A124 /* ViewController.swift */,
 				EC79D8242570E82E0070A124 /* Main.storyboard */,
+				EC76738325790521001B672A /* SportsCollectionViewCell.swift */,
 				EC79D8272570E8300070A124 /* Assets.xcassets */,
 				EC79D8292570E8300070A124 /* LaunchScreen.storyboard */,
 				EC79D82C2570E8300070A124 /* Info.plist */,
+				EC76737D2578F1E7001B672A /* ProgrameViewController.swift */,
 				12FFFB392580C21E00EAF56B /* MapKit */,
 				12FFFB4B2580E59E00EAF56B /* Lieux.swift */,
 			);
@@ -276,10 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC76738425790521001B672A /* SportsCollectionViewCell.swift in Sources */,
 				EC79D8232570E82E0070A124 /* ViewController.swift in Sources */,
 				EC79D81F2570E82E0070A124 /* AppDelegate.swift in Sources */,
 				12FFFB3B2580C24800EAF56B /* CustomAnnotation.swift in Sources */,
 				EC79D8212570E82E0070A124 /* SceneDelegate.swift in Sources */,
+				EC76737E2578F1E7001B672A /* ProgrameViewController.swift in Sources */,
+				EC9635482580CC1E00B97DAA /* DetailsViewController.swift in Sources */,
 				12FFFB352580BD4400EAF56B /* MapViewController.swift in Sources */,
 				12FFFB4C2580E59F00EAF56B /* Lieux.swift in Sources */,
 			);
