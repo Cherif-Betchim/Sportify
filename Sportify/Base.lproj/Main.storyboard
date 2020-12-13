@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2m6-9P-Jjs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2m6-9P-Jjs">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -51,8 +53,8 @@
                     <view key="view" contentMode="scaleToFill" id="ONI-Hx-ROy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="EDi-wV-xsA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="OIY-uy-QxX"/>
                 </viewController>
@@ -118,8 +120,8 @@
                     <view key="view" contentMode="scaleToFill" id="zdi-rp-D37">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ToN-0L-Apm"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="Ggy-If-dVs"/>
                 </viewController>
@@ -130,18 +132,32 @@
         <!--Map-->
         <scene sceneID="YNz-az-icH">
             <objects>
-                <viewController id="AgC-JY-Sdx" customClass="ViewController" customModule="Sportify" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AgC-JY-Sdx" customClass="MapViewController" customModule="Sportify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tbS-EX-qIx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="oYJ-Pf-Geb">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            </mapView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="xPF-ac-H8a"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="oYJ-Pf-Geb" firstAttribute="bottom" secondItem="xPF-ac-H8a" secondAttribute="bottom" id="BeM-fJ-zqh"/>
+                            <constraint firstItem="oYJ-Pf-Geb" firstAttribute="top" secondItem="xPF-ac-H8a" secondAttribute="top" id="Ufm-RL-mIF"/>
+                            <constraint firstItem="oYJ-Pf-Geb" firstAttribute="leading" secondItem="xPF-ac-H8a" secondAttribute="leading" id="ZDL-UT-X2w"/>
+                            <constraint firstItem="oYJ-Pf-Geb" firstAttribute="trailing" secondItem="xPF-ac-H8a" secondAttribute="trailing" id="rxG-4q-d9R"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Map" id="e18-Og-zhm"/>
+                    <connections>
+                        <outlet property="mapView" destination="oYJ-Pf-Geb" id="bUx-pO-lX4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KY5-um-Dxv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2296" y="811"/>
+            <point key="canvasLocation" x="2295.6521739130435" y="810.9375"/>
         </scene>
         <!--Programe-->
         <scene sceneID="W3o-B6-VHm">
@@ -150,8 +166,8 @@
                     <view key="view" contentMode="scaleToFill" id="cVK-CO-2gl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="zeN-7e-P7w"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Programe" id="ssF-U2-Xcn"/>
                 </viewController>
@@ -162,8 +178,20 @@
     </scenes>
     <resources>
         <image name="calendar.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="house" catalog="system" width="128" height="110"/>
-        <image name="map.fill" catalog="system" width="128" height="113"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="map.fill" catalog="system" width="128" height="110"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
