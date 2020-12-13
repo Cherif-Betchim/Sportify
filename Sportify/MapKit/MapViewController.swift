@@ -29,7 +29,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         let center = CLLocationCoordinate2D(latitude: 45.19193413, longitude: 5.72666532)
         centerMap(onLocation: center)
         
-        var lieu = Lieux(name: "Paul Smit", latitude: 45.192349, longitude: 5.731061)
+        let lieu = Lieux(name: "Paul Smit", latitude: 45.192349, longitude: 5.731061)
         lieux.append(lieu)
         
         lieux.forEach { lieu in
@@ -129,9 +129,10 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             break
         case .authorizedAlways:
             break
-            
+
+        @unknown default:
+            break
         }
-    }
     //verify differents permissions
     func locationManager(_ manager:CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus){
         checkLocationAuthorization()
@@ -151,4 +152,5 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         
         
     }
+}
 }

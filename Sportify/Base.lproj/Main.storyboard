@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2m6-9P-Jjs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2m6-9P-Jjs">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -50,7 +48,7 @@
         <scene sceneID="X3c-Aa-ala">
             <objects>
                 <viewController id="Fdj-v6-Tks" customClass="ViewController" customModule="Sportify" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="c0w-yB-E0K">
+                    <view key="view" contentMode="scaleToFill" id="c0w-yB-E0K">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -58,40 +56,26 @@
                                 <rect key="frame" x="0.0" y="813" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </navigationBar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Logo" id="ksT-Sf-nHI">
-                                <rect key="frame" x="91" y="88" width="232" height="232"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="232" id="YU1-M0-Dro"/>
-                                </constraints>
-                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ne vous entrainez plus jamais seul !" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="Tbd-w8-STy">
-
-                        <subviews>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <navigationBar contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xnf-4f-IhI">
                                 <rect key="frame" x="0.0" y="813" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Composez vos propres programmes d'entraînement !" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q32-c5-tSy">
-                                <rect key="frame" x="29" y="480" width="311" height="110"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Composez vos propres programmes d'entraînement !" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="q32-c5-tSy">
+                                <rect key="frame" x="29" y="417" width="365" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="yjL-0X-nao"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="bC4-1C-Qhu">
-                                <rect key="frame" x="91" y="88" width="232" height="232"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ne vous entrainez plus jamais seul !" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2ON-8v-lym">
-                                <rect key="frame" x="0.0" y="779" width="414" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sportify vous permet de chercher des gens autour de vous avec qui pratiquer votre sport préféré !" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7tn-wh-tKB">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sportify vous permet de chercher des gens autour de vous avec qui pratiquer votre sport préféré !" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7tn-wh-tKB">
                                 <rect key="frame" x="29" y="318" width="311" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -101,39 +85,36 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Composez vos propres programmes d'entraînement !" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ded-Ae-kgN">
-                                <rect key="frame" x="29" y="481" width="311" height="110"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Logo" id="bC4-1C-Qhu">
+                                <rect key="frame" x="91" y="109" width="232" height="232"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="110" id="r6j-aL-yFw"/>
-                                </constraints>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sportify vous permet de chercher des gens autour de vous avec qui pratiquer votre sport préféré !" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cV1-TW-Hzv">
-                                <rect key="frame" x="29" y="318" width="356" height="178"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ne vous entrainez plus jamais seul !" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="2ON-8v-lym">
+                                <rect key="frame" x="0.0" y="685" width="414" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ksT-Sf-nHI" firstAttribute="leading" secondItem="s0L-7d-WEp" secondAttribute="leading" constant="91" id="6Dm-yg-a7G"/>
+                            <constraint firstItem="q32-c5-tSy" firstAttribute="trailing" secondItem="7tn-wh-tKB" secondAttribute="trailing" id="60c-SU-Ia6"/>
+                            <constraint firstItem="2ON-8v-lym" firstAttribute="trailing" secondItem="2bq-9e-Kn7" secondAttribute="trailing" id="7EA-yj-Zp7"/>
                             <constraint firstItem="7tn-wh-tKB" firstAttribute="centerX" secondItem="Tbd-w8-STy" secondAttribute="centerX" id="7ol-G8-dhF"/>
-                            <constraint firstItem="7tn-wh-tKB" firstAttribute="leading" secondItem="Ded-Ae-kgN" secondAttribute="leading" id="NUY-vP-E9C"/>
+                            <constraint firstItem="q32-c5-tSy" firstAttribute="leading" secondItem="7tn-wh-tKB" secondAttribute="leading" id="NZW-dm-VeB"/>
+                            <constraint firstItem="2ON-8v-lym" firstAttribute="leading" secondItem="2bq-9e-Kn7" secondAttribute="leading" id="OzQ-zH-Upe"/>
                             <constraint firstItem="7tn-wh-tKB" firstAttribute="leading" secondItem="s0L-7d-WEp" secondAttribute="leading" constant="29" id="WNJ-md-SgK"/>
-                            <constraint firstItem="Tbd-w8-STy" firstAttribute="bottom" secondItem="s0L-7d-WEp" secondAttribute="bottom" id="ewc-ys-V7O"/>
-                            <constraint firstAttribute="bottom" secondItem="Ded-Ae-kgN" secondAttribute="bottom" constant="306" id="fTH-dr-XLQ"/>
-                            <constraint firstItem="7tn-wh-tKB" firstAttribute="centerX" secondItem="ksT-Sf-nHI" secondAttribute="centerX" id="fx8-PN-dTs"/>
+                            <constraint firstItem="2bq-9e-Kn7" firstAttribute="top" secondItem="2ON-8v-lym" secondAttribute="bottom" id="YPg-BD-O0Z"/>
                             <constraint firstItem="7tn-wh-tKB" firstAttribute="centerX" secondItem="2bq-9e-Kn7" secondAttribute="centerX" id="hHf-z1-SPs"/>
-                            <constraint firstItem="s0L-7d-WEp" firstAttribute="trailing" secondItem="Ded-Ae-kgN" secondAttribute="trailing" constant="74" id="nFt-Y8-tdY"/>
+                            <constraint firstItem="2ON-8v-lym" firstAttribute="top" secondItem="q32-c5-tSy" secondAttribute="bottom" constant="180" id="iYB-wV-Re6"/>
                             <constraint firstItem="Tbd-w8-STy" firstAttribute="leading" secondItem="2bq-9e-Kn7" secondAttribute="leading" id="pix-FU-ekT"/>
+                            <constraint firstItem="2ON-8v-lym" firstAttribute="bottom" secondItem="s0L-7d-WEp" secondAttribute="bottom" id="rX1-SR-qTC"/>
                             <constraint firstItem="7tn-wh-tKB" firstAttribute="top" secondItem="s0L-7d-WEp" secondAttribute="top" constant="230" id="xAp-Ou-ksX"/>
-                            <constraint firstItem="ksT-Sf-nHI" firstAttribute="top" secondItem="s0L-7d-WEp" secondAttribute="top" id="yhv-fk-ZCY"/>
+                            <constraint firstAttribute="bottom" secondItem="q32-c5-tSy" secondAttribute="bottom" constant="306" id="zj8-PD-k34"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="s0L-7d-WEp"/>
-
-                        <viewLayoutGuide key="safeArea" id="EDi-wV-xsA"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="m6T-Y5-YP5"/>
                     <navigationItem key="navigationItem" title="Home" id="OIY-uy-QxX"/>
@@ -216,7 +197,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f1h-7Y-LI1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2492.753623188406" y="1466.5178571428571"/>
-            <point key="canvasLocation" x="842.02898550724649" y="810.9375"/>
         </scene>
         <!--Map-->
         <scene sceneID="N9u-ew-chP">
@@ -276,8 +256,8 @@
                     <view key="view" contentMode="scaleToFill" id="zdi-rp-D37">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ToN-0L-Apm"/>
-                        <color key="backgroundColor" systemColor="systemPinkColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="Ggy-If-dVs"/>
                 </viewController>
@@ -297,14 +277,14 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                             </mapView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="xPF-ac-H8a"/>
-                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oYJ-Pf-Geb" firstAttribute="bottom" secondItem="xPF-ac-H8a" secondAttribute="bottom" id="BeM-fJ-zqh"/>
                             <constraint firstItem="oYJ-Pf-Geb" firstAttribute="top" secondItem="xPF-ac-H8a" secondAttribute="top" id="Ufm-RL-mIF"/>
                             <constraint firstItem="oYJ-Pf-Geb" firstAttribute="leading" secondItem="xPF-ac-H8a" secondAttribute="leading" id="ZDL-UT-X2w"/>
                             <constraint firstItem="oYJ-Pf-Geb" firstAttribute="trailing" secondItem="xPF-ac-H8a" secondAttribute="trailing" id="rxG-4q-d9R"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="xPF-ac-H8a"/>
                     </view>
                     <navigationItem key="navigationItem" title="Map" id="e18-Og-zhm"/>
                     <connections>
@@ -375,7 +355,6 @@
                             <constraint firstItem="zeN-7e-P7w" firstAttribute="bottom" secondItem="URp-ud-BtE" secondAttribute="bottom" id="tpD-9f-gPp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zeN-7e-P7w"/>
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="ssF-U2-Xcn">
                         <barButtonItem key="rightBarButtonItem" image="Logo" id="THT-KU-96B"/>
@@ -410,23 +389,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo" width="200" height="200"/>
         <image name="Logo" width="100" height="100"/>
         <image name="calendar.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="house" catalog="system" width="128" height="106"/>
-        <image name="map.fill" catalog="system" width="128" height="110"/>
+        <image name="house" catalog="system" width="128" height="110"/>
+        <image name="map.fill" catalog="system" width="128" height="113"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>
