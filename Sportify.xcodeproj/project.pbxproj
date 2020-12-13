@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		EC76737E2578F1E7001B672A /* ProgrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76737D2578F1E7001B672A /* ProgrameViewController.swift */; };
 		EC76738425790521001B672A /* SportsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76738325790521001B672A /* SportsCollectionViewCell.swift */; };
+		12FFFB352580BD4400EAF56B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFFB342580BD4400EAF56B /* MapViewController.swift */; };
+		12FFFB3B2580C24800EAF56B /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFFB3A2580C24800EAF56B /* CustomAnnotation.swift */; };
+		12FFFB4C2580E59F00EAF56B /* Lieux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFFB4B2580E59E00EAF56B /* Lieux.swift */; };
 		EC79D81F2570E82E0070A124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D81E2570E82E0070A124 /* AppDelegate.swift */; };
 		EC79D8212570E82E0070A124 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D8202570E82E0070A124 /* SceneDelegate.swift */; };
 		EC79D8232570E82E0070A124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79D8222570E82E0070A124 /* ViewController.swift */; };
@@ -40,6 +43,9 @@
 /* Begin PBXFileReference section */
 		EC76737D2578F1E7001B672A /* ProgrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrameViewController.swift; sourceTree = "<group>"; };
 		EC76738325790521001B672A /* SportsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsCollectionViewCell.swift; sourceTree = "<group>"; };
+		12FFFB342580BD4400EAF56B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		12FFFB3A2580C24800EAF56B /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		12FFFB4B2580E59E00EAF56B /* Lieux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lieux.swift; sourceTree = "<group>"; };
 		EC79D81B2570E82E0070A124 /* Sportify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sportify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC79D81E2570E82E0070A124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC79D8202570E82E0070A124 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12FFFB392580C21E00EAF56B /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				12FFFB342580BD4400EAF56B /* MapViewController.swift */,
+				12FFFB3A2580C24800EAF56B /* CustomAnnotation.swift */,
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
 		EC79D8122570E82E0070A124 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +130,8 @@
 				EC79D8292570E8300070A124 /* LaunchScreen.storyboard */,
 				EC79D82C2570E8300070A124 /* Info.plist */,
 				EC76737D2578F1E7001B672A /* ProgrameViewController.swift */,
+				12FFFB392580C21E00EAF56B /* MapKit */,
+				12FFFB4B2580E59E00EAF56B /* Lieux.swift */,
 			);
 			path = Sportify;
 			sourceTree = "<group>";
@@ -271,9 +288,12 @@
 				EC76738425790521001B672A /* SportsCollectionViewCell.swift in Sources */,
 				EC79D8232570E82E0070A124 /* ViewController.swift in Sources */,
 				EC79D81F2570E82E0070A124 /* AppDelegate.swift in Sources */,
+				12FFFB3B2580C24800EAF56B /* CustomAnnotation.swift in Sources */,
 				EC79D8212570E82E0070A124 /* SceneDelegate.swift in Sources */,
 				EC76737E2578F1E7001B672A /* ProgrameViewController.swift in Sources */,
 				EC9635482580CC1E00B97DAA /* DetailsViewController.swift in Sources */,
+				12FFFB352580BD4400EAF56B /* MapViewController.swift in Sources */,
+				12FFFB4C2580E59F00EAF56B /* Lieux.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,12 +467,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9988694CPD;
 				INFOPLIST_FILE = Sportify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iut1.Sportify;
+				PRODUCT_BUNDLE_IDENTIFIER = iut1.mmi.Sportify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,12 +485,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9988694CPD;
 				INFOPLIST_FILE = Sportify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iut1.Sportify;
+				PRODUCT_BUNDLE_IDENTIFIER = iut1.mmi.Sportify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

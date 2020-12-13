@@ -1,18 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Logo.png",
-      "filename" : "9b0f1511-2d29-4258-b3dd-8b5137094372_200x200-2.png",
+      "filename" : "mathias-morin.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "9b0f1511-2d29-4258-b3dd-8b5137094372_200x200-1.png",
+      "filename" : "mathias-morin-1.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "9b0f1511-2d29-4258-b3dd-8b5137094372_200x200.png",
+      "filename" : "mathias-morin-2.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }
